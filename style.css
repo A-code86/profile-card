@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: rgb(100, 100, 100);
 }
 
 .container {
@@ -7,14 +7,14 @@ body {
     display: block;
     width: 500px;
     height: 400px;
-    background-color: white;
+    background-color: rgb(161, 161, 161);
     margin: auto;
     margin-top: 80px;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     overflow: hidden;
     box-shadow: 0 0 10px #969695;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 /* فاصله فقط از بالا */
@@ -28,6 +28,7 @@ body {
     width: 150px;
     height: auto;
     border-radius: 50%;
+    border: 3px dashed rgb(76, 76, 76);
     margin: auto;
 }
 
@@ -41,20 +42,20 @@ body {
     margin:25px auto;
     font-family: vazir;
     font-size: 25px;
-    color: #595959;
+    color: #383838;
     margin-top: 30px;
-    border-bottom: 5px solid lightgray;
+    border-bottom: 5px solid rgb(212, 212, 212);
 }
 
 .desc {
     font-size: 14px;
-    color: gray;
+    color: rgb(64, 64, 64);
     margin-top: 5px;
 }
 
 /* آیکون‌ها */
 .social {
-    background-color: lightgray;
+    background-color: rgb(204, 204, 204);
     padding: 15px 0;
     margin-top: 20px;
 }
